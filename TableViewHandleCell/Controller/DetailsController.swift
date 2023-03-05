@@ -14,25 +14,3 @@ class DetailsController: UIViewController {
         view.backgroundColor = .blue
     }
 }
-
-import UIKit
-
-class DetailsController2: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .yellow
-    }
-}
-
-import UIKit
-
-class DetailsController3: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .red
-    }
-}
-
-
