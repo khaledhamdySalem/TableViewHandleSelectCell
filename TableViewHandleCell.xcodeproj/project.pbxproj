@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		EA2EAD0129B49E150022816C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EAD0029B49E150022816C /* AppDelegate.swift */; };
 		EA2EAD0329B49E150022816C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EAD0229B49E150022816C /* SceneDelegate.swift */; };
-		EA2EAD0529B49E150022816C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EAD0429B49E150022816C /* ViewController.swift */; };
+		EA2EAD0529B49E150022816C /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EAD0429B49E150022816C /* HomeController.swift */; };
 		EA2EAD0829B49E150022816C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2EAD0629B49E150022816C /* Main.storyboard */; };
 		EA2EAD0A29B49E170022816C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2EAD0929B49E170022816C /* Assets.xcassets */; };
 		EA2EAD0D29B49E170022816C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2EAD0B29B49E170022816C /* LaunchScreen.storyboard */; };
+		EA2EAD1529B49F5E0022816C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EAD1429B49F5E0022816C /* HomeViewModel.swift */; };
+		EA2EAD1729B49F740022816C /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EAD1629B49F740022816C /* HomeTableViewCell.swift */; };
+		EA2EAD1A29B4A0470022816C /* HomeTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EAD1929B4A0470022816C /* HomeTableViewCellViewModel.swift */; };
+		EA2EAD1C29B4A3160022816C /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EAD1B29B4A3160022816C /* UIImageView+Extension.swift */; };
+		EA2EAD1E29B4A3400022816C /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EAD1D29B4A3400022816C /* UIImage+Extension.swift */; };
+		EA2EAD2029B4A3880022816C /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EAD1F29B4A3880022816C /* UILabel+Extension.swift */; };
+		EA2EAD2229B4A4570022816C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EAD2129B4A4570022816C /* UIView+Extension.swift */; };
+		EA2EAD2929B4A9200022816C /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EAD2829B4A9200022816C /* DetailsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA2EACFD29B49E150022816C /* TableViewHandleCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewHandleCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2EAD0029B49E150022816C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA2EAD0229B49E150022816C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA2EAD0429B49E150022816C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA2EAD0429B49E150022816C /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		EA2EAD0729B49E150022816C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA2EAD0929B49E170022816C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA2EAD0C29B49E170022816C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA2EAD0E29B49E170022816C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2EAD1429B49F5E0022816C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EA2EAD1629B49F740022816C /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		EA2EAD1929B4A0470022816C /* HomeTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		EA2EAD1B29B4A3160022816C /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		EA2EAD1D29B4A3400022816C /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		EA2EAD1F29B4A3880022816C /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		EA2EAD2129B4A4570022816C /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		EA2EAD2829B4A9200022816C /* DetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,63 @@
 		EA2EACFF29B49E150022816C /* TableViewHandleCell */ = {
 			isa = PBXGroup;
 			children = (
+				EA2EAD1829B49F8F0022816C /* Supporting Files */,
+				EA2EAD2729B4A4E90022816C /* Extension */,
+				EA2EAD2329B4A4D60022816C /* Controller */,
+				EA2EAD2529B4A4DF0022816C /* ViewModel */,
+				EA2EAD2429B4A4DC0022816C /* Cell */,
+			);
+			path = TableViewHandleCell;
+			sourceTree = "<group>";
+		};
+		EA2EAD1829B49F8F0022816C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				EA2EAD0029B49E150022816C /* AppDelegate.swift */,
 				EA2EAD0229B49E150022816C /* SceneDelegate.swift */,
-				EA2EAD0429B49E150022816C /* ViewController.swift */,
 				EA2EAD0629B49E150022816C /* Main.storyboard */,
 				EA2EAD0929B49E170022816C /* Assets.xcassets */,
 				EA2EAD0B29B49E170022816C /* LaunchScreen.storyboard */,
 				EA2EAD0E29B49E170022816C /* Info.plist */,
 			);
-			path = TableViewHandleCell;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA2EAD2329B4A4D60022816C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EAD0429B49E150022816C /* HomeController.swift */,
+				EA2EAD2829B4A9200022816C /* DetailsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EA2EAD2429B4A4DC0022816C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EAD1629B49F740022816C /* HomeTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EA2EAD2529B4A4DF0022816C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EAD1429B49F5E0022816C /* HomeViewModel.swift */,
+				EA2EAD1929B4A0470022816C /* HomeTableViewCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EA2EAD2729B4A4E90022816C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EAD1B29B4A3160022816C /* UIImageView+Extension.swift */,
+				EA2EAD1D29B4A3400022816C /* UIImage+Extension.swift */,
+				EA2EAD1F29B4A3880022816C /* UILabel+Extension.swift */,
+				EA2EAD2129B4A4570022816C /* UIView+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA2EAD0529B49E150022816C /* ViewController.swift in Sources */,
+				EA2EAD0529B49E150022816C /* HomeController.swift in Sources */,
+				EA2EAD2929B4A9200022816C /* DetailsController.swift in Sources */,
+				EA2EAD1729B49F740022816C /* HomeTableViewCell.swift in Sources */,
+				EA2EAD2229B4A4570022816C /* UIView+Extension.swift in Sources */,
+				EA2EAD1C29B4A3160022816C /* UIImageView+Extension.swift in Sources */,
+				EA2EAD1E29B4A3400022816C /* UIImage+Extension.swift in Sources */,
 				EA2EAD0129B49E150022816C /* AppDelegate.swift in Sources */,
 				EA2EAD0329B49E150022816C /* SceneDelegate.swift in Sources */,
+				EA2EAD1A29B4A0470022816C /* HomeTableViewCellViewModel.swift in Sources */,
+				EA2EAD1529B49F5E0022816C /* HomeViewModel.swift in Sources */,
+				EA2EAD2029B4A3880022816C /* UILabel+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +361,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6SYM4Y4869;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TableViewHandleCell/Info.plist;
+				INFOPLIST_FILE = "TableViewHandleCell/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +389,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6SYM4Y4869;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TableViewHandleCell/Info.plist;
+				INFOPLIST_FILE = "TableViewHandleCell/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
